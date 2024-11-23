@@ -1,0 +1,62 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.caixaBotao {
+  display: flex;
+  margin: 1.5rem 0;
+  justify-content: center;
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+    background-color: #333;
+    color: #fff;
+    padding: 0 10px;
+    text-align: left;
+  }
+  td {
+    padding: 5px 10px 0 10px;
+    border-bottom: 1px solid #333;
+  }
+}

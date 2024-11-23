@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer type="module" src="./view.js"></script>
+    <title>Piquis</title>
+  </head>
+  <body>
+    <div class="content">
+      <header style="background-color: lightblue; padding: 4px 12px">
+        <h1>Era so Piquis</h1>
+      </header>
+      <div class="caixaBotao">
+        <div style="display: flex; flex-direction: column; gap: 12px">
+          <input id="idRequisicaoGet" type="text" />
+          <button id="requisicaoGet">Consultar</button>
+        </div>
+      </div>
+      <div style="padding: 0 2.5rem">
+        <table>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Nome</th>
+              <th>Departamento</th>
+              <th>Endereco</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <footer>
+        <span>Thiago Jung Morais, Augusto Klug e Lucas Parisotto</span>
+      </footer>
+    </div>
+  </body>
+</html>
