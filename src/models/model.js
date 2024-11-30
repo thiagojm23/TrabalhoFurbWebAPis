@@ -17,6 +17,7 @@ class Model {
         `https://bu.furb.br/mcardoso/progWeb/apiRestAval.php/cadastro/${id}`,
         {
           method: "PUT",
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data),
         }
       );
